@@ -50,10 +50,3 @@ app.get('/err500', function(req: any, res: any){
     res.status(500).send('Dead... Internal Server ERROR').end();
 });
 
-
-
-
-
-app.listen(8102);
-
-
