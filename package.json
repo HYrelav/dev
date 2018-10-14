@@ -6,11 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc -p .",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "start-fatarrow": "node dist/fatarrow/fatarrowTry001.js",
+    "start-express-middleware": "node dist/express-middleware/express-middlewareTry001.js",
+    "start-express-router": "node dist/express-router/express-routerTry001.js",
+    "start-couchbase": "node dist/couchbase/couchbaseTry001.js"
+    
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/couchbase": "^2.4.1",
+    "couchbase": "^2.6.0",
+    "curl": "^0.1.4",
     "express": "^4.16.3",
     "git": "^0.1.5",
     "routing-controllers": "^0.7.7",

@@ -1,9 +1,9 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("reflect-metadata");
-var UserController_1 = require("./UserController");
-var routing_controllers_1 = require("routing-controllers");
-var app = routing_controllers_1.createExpressServer({
-    controllers: [UserController_1.UserController]
-});
-app.listen(8102);
+console.log("To compile: ");
+console.log("- npm run compile");
+console.log("To run: ");
+console.log("- npm run start");
+console.log("- npm run start-fatarrow");
+console.log("- npm run start-express-middleware");
+console.log("- npm run start-express-router");
+console.log("- npm run start-couchbase");

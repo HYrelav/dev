@@ -1,10 +1,10 @@
-import "reflect-metadata"
-import {UserController} from "./UserController"
-import {createExpressServer} from "routing-controllers"
 
 
-const app = createExpressServer({
-    controllers: [UserController]
-});
-
-app.listen(8102);
+console.log("To compile: ")
+console.log("- npm run compile")
+console.log("To run: ")
+console.log("- npm run start")
+console.log("- npm run start-fatarrow")
+console.log("- npm run start-express-middleware")
+console.log("- npm run start-express-router")
+console.log("- npm run start-couchbase")

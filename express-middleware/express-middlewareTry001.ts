@@ -1,3 +1,5 @@
+namespace expressMiddleware001 {
+    
 let express = require('express');
 let app = express();
 let path = require('path');
@@ -22,8 +24,8 @@ app.use(requestTime);
 app.use(requestURL);
 app.use(myLogger);
 
-app.use('/', express.static(path.join(__dirname + '/..', 'public')))
-app.use('/web', express.static(path.join(__dirname + '/..', 'public')))
+app.use('/', express.static(path.join(__dirname + '/../..', 'public')))
+app.use('/web', express.static(path.join(__dirname + '/../..', 'public')))
 app.use('/ping', function (req: any, res: any) {
     res.send("ok");
 });
@@ -57,3 +59,4 @@ app.get('/err500', function(req: any, res: any){
 app.listen(8102);
 
 
+}

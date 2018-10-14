@@ -1,4 +1,7 @@
+
 import { Controller, Param, Body, Get, Post, Put, Delete } from "routing-controllers";
+
+export namespace expressRouter001 {
 
 @Controller()
 export class UserController {
@@ -28,3 +31,6 @@ export class UserController {
 
     }
 }
+
+}
+
