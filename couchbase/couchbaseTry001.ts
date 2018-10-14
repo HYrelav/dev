@@ -1,3 +1,4 @@
+namespace couchbaseTry001 {
 /*
     Learning
     What: couchbase
@@ -51,3 +52,4 @@ var bucket = cluster.openBucket('beer-sample','beer-sample', function(err: any) 
    process.exit(0);
   });
 });
+}
