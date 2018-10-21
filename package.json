@@ -9,10 +9,13 @@
     "start": "node dist/index.js",
     "start-generics": "node dist/worldOfGenerics/genericsTry001.js",
     "start-fatarrow": "node dist/fatarrow/fatarrowTry001.js",
+    "start-callback": "node dist/callback/callbackTry001.js",
+    "start-withoutPromiseTry001": "node dist/promise/withoutPromiseTry001.js",
+    "start-withPromiseTry001": "node dist/promise/withPromiseTry001.js",
+    "start-withGoodPromiseTry001": "node dist/promise/withGoodPromiseTry001.js",
     "start-express-middleware": "node dist/express-middleware/express-middlewareTry001.js",
     "start-express-router": "node dist/express-router/express-routerTry001.js",
     "start-couchbase": "node dist/couchbase/couchbaseTry001.js"
-    
   },
   "author": "",
   "license": "ISC",
