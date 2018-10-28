@@ -15,7 +15,9 @@
     "start-withGoodPromiseTry001": "node dist/promise/withGoodPromiseTry001.js",
     "start-express-middleware": "node dist/express-middleware/express-middlewareTry001.js",
     "start-express-router": "node dist/express-router/express-routerTry001.js",
-    "start-couchbase": "node dist/couchbase/couchbaseTry001.js"
+    "start-couchbase": "node dist/couchbase/couchbaseTry001.js",
+    "start-obsRxJsSimple": "node dist/observableRxJs/observableRxJsTry001.js",
+    "start-obsRxJsMulti": "node dist/observableRxJs/observableRxJsTry002.js"
   },
   "author": "",
   "license": "ISC",
@@ -26,10 +28,13 @@
     "express": "^4.16.3",
     "git": "^0.1.5",
     "routing-controllers": "^0.7.7",
+    "rxjs-compat": "^6.3.3",
     "typescript": "^3.0.3"
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
-    "reflect-metadata": "^0.1.12"
+    "@types/rx": "^4.1.1",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.3.3"
   }
 }
